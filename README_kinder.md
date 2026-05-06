@@ -6,6 +6,8 @@ Training and evaluating video world models on the [KinDER benchmark datasets](ht
 
 ## Setup
 
+Download KinDER datasets from [🤗 Hugging Face](https://huggingface.co/datasets/kinder-bench/kinder-datasets).
+
 Set the required environment variables before running any command:
 
 ```bash
