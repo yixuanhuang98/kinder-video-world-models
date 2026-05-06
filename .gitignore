@@ -1,6 +1,7 @@
 # Project-specific directories
 preprocess
 results
+data/
 results_img
 sample_videos
 checkpoints/

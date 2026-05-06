@@ -1,0 +1,12 @@
+defaults:
+  - kinder/base
+
+name: "kinder_motion2d"
+# Short episodes (mean ~42 steps), use every frame
+frame_interval: 1
+loader:
+  data_path: "${dataset_dir}/motion2d_p0.hdf5"
+  image_key: "image"
+  state_keys: ["robot_state"]
+spec:
+  action_dim: 5

@@ -706,6 +706,7 @@ def create_world_model_dataset(
         'use_relative_actions', 'action_scale', 'object_name',
         'file_list', 'use_auxiliary_state',  # file_list is for CSGO DataSource
         'root', 'image_key', 'preload_trajectories', 'pad_action_dim',  # LeRobotDataSource
+        'state_keys',  # KinDERDataSource
     }
     for key, value in kwargs.items():
         if key in datasource_params and value is not None:
